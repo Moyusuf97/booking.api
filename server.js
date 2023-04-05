@@ -13,6 +13,7 @@ app.use(cors());
 const cleanRouter = require("./Routes/cleanRouter");
 app.use("/clean", cleanRouter);
 
+
 mongoose.set("strictQuery", false);
 mongoose.connect(
   `mongodb+srv://momme40:Mohusby1@cluster0.eveapwr.mongodb.net/?retryWrites=true&w=majority`, 

@@ -32,7 +32,7 @@ const cleanSchema = mongoose.Schema({
     Date: {
         type: Date,
         default: Date.now
-    },
+    }
 })
 
 module.exports = mongoose.model('Clean', cleanSchema); 
